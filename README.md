@@ -1,11 +1,12 @@
 # Cone_Model_CMEs
-Python scripts and data to investigate the spheroidal approximation to cone model CMEs in solar wind models
+Python scripts and data to investigate the spheroidal approximation to cone model CMEs in solar wind models. Uses th HUXt solar wind model.
 
-We recommend using and up-to-date version of [miniconda](https://docs.anaconda.com/free/miniconda/index.html). With the anaconda prompt, in the root directory of `HUXt`, this can be done as:
+HUXt code is written in Python 3.9.13 and has a range of dependencies, which are listed in the `requirements.txt` and `environment.yml` files. Because of these dependencies, the simplest way to work with this code is to use `conda` to create a virtual environment for `HUXt`. We recommend using and up-to-date version of [miniconda](https://docs.anaconda.com/free/miniconda/index.html). With the anaconda prompt, in the root directory of  this repository, this can be done as:
 ```
 >>conda env create -f environment.yml
 >>conda activate huxt
 ``` 
+
 
 
 Then run code/cone_parameterisations_durationtest.py
