@@ -3,7 +3,7 @@
 A script to investigate the effect of CME perturbation shape/duration on 
 model transit time and arrival speed
 
-NOTE: Move huxt_sine_cone.py to the HUXt/code directory.
+NOTE: Uses its own HUXt install.
 
 @author: vy902033
 """
